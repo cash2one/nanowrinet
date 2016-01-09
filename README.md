@@ -18,9 +18,7 @@ AWS IAM user authorized to run/change AWS Lambda code on your AWS account.
 
 The `neural-backend` directory contains some python/chainer code that runs a neural net
 to, first, generate a model based on an author, use that model to generate samples, and remix the
-results with the user's input. The net logic itself is based off: [[https://github.com/yusuketomoto/chainer-char-rnn]]
-The zipped `base_lambda.zip` file contains the project's binary dependencies, as compiled and zipped from
-an AWS machine.
+results with the user's input. The net logic itself is based off: [Chainer Char RNN by Yusuketomo](https://github.com/yusuketomoto/chainer-char-rnn). The zipped `base_lambda.zip` file contains the project's binary dependencies, as compiled and zipped from an AWS machine.
 
 To add a new source:
 
